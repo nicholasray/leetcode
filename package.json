@@ -4,7 +4,8 @@
   "description": "",
   "main": "1-two-sum.js",
   "scripts": {
-    "test": "mocha *"
+    "test": "mocha $(find src -name '*.js')",
+    "test:watch": "npm test -- --watch"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,5 @@
 const { expect } = require('chai');
+
 /**
  * @param {number[]} nums
  * @param {number} target
